@@ -83,11 +83,22 @@ const sr = ScrollReveal({
   delay: 400,
   // reset: true
 })
-
+sr.reveal(`.section__title`, { delay: 500, origin: 'bottom' })
+sr.reveal(`.section__subtitle`, { delay: 500, origin: 'top' })
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, { delay: 700 })
 sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' })
-
+sr.reveal(`.about__img`, { origin: 'left' })
+sr.reveal(`.about__info `, { delay: 900, origin: 'top' })
+sr.reveal(`.about__description `, { delay: 900, origin: 'bottom' })
+sr.reveal(`.about__data`, { delay: 600, origin: 'right' })
+sr.reveal(`.skills__card-1`, { delay: 900, origin: 'left' })
+sr.reveal(`.skills__card-2`, { delay: 900, origin: 'bottom' })
+sr.reveal(`.skills__card-3`, { delay: 900, origin: 'right' })
+// sr.reveal(`.work__filters`, { delay: 900, origin: 'top' })
+sr.reveal(`.work`, { delay: 900, origin: 'bottom' })
+sr.reveal(`.contact__box-1`, { delay: 900, origin: 'left' })
+sr.reveal(`.contact__box-2`, { delay: 900, origin: 'right' })
 
 
 /*=============== HOME TEXT ANIMATION ===============*/
